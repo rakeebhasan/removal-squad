@@ -1,0 +1,403 @@
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
+
+/* FOR-LG-START */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-menu li a {
+        padding: 15px 0px;
+    }
+
+    .news-img img {
+        height: 330px;
+    }
+}
+
+/*FOR-TABLATE-START*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .dm-n-sa {
+        display: none;
+    }
+    /* hero area responsive start hare  */
+   
+    .hero-content-sa .hero-block-one-sa img {
+        display: inline-block ;
+        width: 140px;
+    }
+    .hero-block-one-sa .mobile-hide-sa {
+        display: none !important;
+    }
+    .hero-content-sa .hero-block-one-sa p.reviews-t {
+        display: inline-block;
+    }
+    .hero-content-sa .hero-title-sa h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .hero-content-sa .hero-details-sa p {
+        font-size: 19px;
+    }
+    .brands-logo-sa {
+        margin-top: 50px;
+    }
+    .logo-items-sa img {
+        width: 100%;
+        padding: 0 10px;
+    }
+    /* whyus area responsive start hare  */
+    .whyus-area {
+        padding-top: 80px;
+    }
+    .whyus-area .whyus-content-sa p {
+        font-size: 25px;
+    }
+    .service-list-sa ul li {
+        font-size: 20px;
+    }
+    .cus-mt-sa {
+        margin-top: 30px;
+    }
+    .track-d-sa img {
+        width: 100%;
+    }
+    .service-list-sa::after {
+        display: none;
+    }
+    .explore-sa .explore-title-sa h1 {
+        font-size: 25px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .explore-btn-sa a {
+        padding: 10px 10px;
+    }
+    .explore-btn-sa a {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    .explore-action {
+        padding-left: 17px;
+    }
+    .ready-self-title h2 {
+        font-size: 29px;
+    }
+    .ready-self-title p b {
+        font-size: 24px;
+    }
+    .ready-self-title p span {
+        font-size: 23px;
+    }
+    .ready-self-img {
+        margin-bottom: 30px;
+    }
+    .serial-after::after {
+        height: 60px;
+        bottom: -73px;
+    }
+    .serial-number p {
+        width: 65px;
+        height: 65px;
+        font-size: 40px;
+    }
+    #btn {
+        max-width: 100%;
+        padding: 23px 0;
+        padding-left: 20px;
+    }
+    .ready-self-desc {
+        padding-top: 66px;
+        padding-bottom: 70px;
+    }
+    .review-title h2,
+    .faq-title h2 {
+        font-size: 27px;
+    }
+    .faq-area {
+        padding-bottom: 70px;
+    }
+    .single-review-rh {
+        margin-bottom: 30px;
+    }
+    .product-title h4 {
+        font-size: 36px;
+    }
+    .waste-removal {
+        padding-top: 34px;
+        padding-bottom: 50px;
+    }
+    .serial-number {
+        width: auto;
+    }
+    .serial-desc p {
+        padding-bottom: 60px;
+    }
+    .pd-0-rs {
+        padding-bottom: 60px !important;
+    }
+    .cus-p-sa {
+        padding-bottom: 50px !important;
+    }
+
+	#call {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.call-us {
+		margin-right: 30px;
+		padding: 3px 8px;
+		display: block;
+		border: 1px solid #fff;
+		border-radius: 12px;
+		text-decoration: none;
+		text-transform: capitalize;
+	}
+
+	.call-us:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+    .news-img img {
+        height: 243px;
+    }
+}
+
+/*FOR-MOBIL-START*/
+
+@media screen and (max-width: 767px) {
+    .dm-n-sa {
+        display: none;
+    }
+
+	#call {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.call-us {
+		color: #fff;
+		display: block;
+		margin-right: 30px;
+		padding: 3px 8px;
+		display: block;
+		border: 1px solid #fff;
+		border-radius: 12px;
+		text-decoration: none;
+		text-transform: capitalize;
+	}
+
+	.call-us:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	
+
+    /* hero area responsive start hare  */
+    
+    .hero-content-sa .hero-block-one-sa img {
+        display: inline-block ;
+        width: 95px;
+    }
+    .hero-block-one-sa .mobile-hide-sa {
+        display: none !important;
+    }
+    .hero-content-sa .hero-block-one-sa p.reviews-t {
+        display: inline-block;
+    }
+    .hero-content-sa .hero-title-sa h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .hero-content-sa .hero-details-sa p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .brands-logo-sa {
+        margin-top: 50px;
+    }
+    .brands-logo-sa .logo-items-sa {
+        display: block !important;
+        text-align: center;
+    }
+    .brands-logo-sa .logo-items-sa img {
+        display: inline-block;
+        width: 19%;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+    .hero-content-sa .hero-search-box-sa {
+        width: 100%;
+    }
+    .hero-search-box-sa .hero-searchbar-sa .lets-btn-sa {
+        padding: 10px 0px;
+        width: 40%;
+        align-items: center;
+        display: flex;
+        margin-left: 5px;
+        justify-content: center;
+    }
+    .hero-search-box-sa .hero-searchbar-sa input {
+        width: 50%;
+    }
+    .hero-searchbar-sa .lets-btn-sa a {
+        font-weight: 500;
+        font-size: 9px;
+        padding-left: 5px;
+        text-align: center;
+    }
+
+	.mobile-hide {
+		display: none !important;
+	}
+
+
+
+    /* whyus area responsive start hare  */
+    .whyus-area {
+        padding-top: 80px;
+    }
+    .whyus-area .whyus-content-sa p {
+        font-size: 25px;
+    }
+    .service-list-sa ul li {
+        font-size: 20px;
+    }
+    .cus-mt-sa {
+        margin-top: 30px;
+    }
+    .service-list-sa::after {
+        display: none;
+    }
+    .track-d-sa img {
+        width: 100%;
+    }
+    .explore-sa .explore-title-sa h1 {
+        font-size: 27px;
+        padding-bottom: 30px;
+    }
+    .mb-sm-4 {
+        padding-top: 30px;
+    }
+    .ready-self-title h2 {
+        font-size: 25px;
+    }
+    .ready-self-title p b {
+        font-size: 20px;
+    }
+    .ready-self-title p span {
+        font-size: 20px;
+    }
+    .ready-self-img {
+        margin-bottom: 30px;
+    }
+    .serial-number p {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+    #btn {
+        max-width: 100%;
+        padding: 23px 0;
+        padding-left: 20px;
+    }
+    .ready-self-desc {
+        padding-top: 66px;
+        padding-bottom: 90px;
+    }
+    .review-title h2,
+    .faq-title h2 {
+        font-size: 27px;
+    }
+    .faq-area {
+        padding-bottom: 70px;
+    }
+    .single-review-rh {
+        margin-bottom: 30px;
+    }
+    .product-title h4 {
+        font-size: 36px;
+    }
+    .waste-removal {
+        padding-top: 34px;
+        padding-bottom: 50px;
+    }
+    .serial-number {
+        width: auto;
+    }
+    .serial-desc p {
+        padding-bottom: 60px;
+    }
+    .cus-p-sa {
+        padding-bottom: 50px !important;
+    }
+    .serial-after::after {
+        height: 65px;
+        bottom: -74px;
+    }
+
+
+
+
+/* ===== GREAT NEWS PAGE DESIGN ===== */
+
+/* ===== DRIVER TRACKING AREA ===== */
+
+    .tracking-content h2 {
+        margin-top: 20px;
+    }
+
+    .it-works a {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .asked-faq a {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .bdr-phn img {
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+
+    .mt-4 {
+        margin-top: 0 !important;
+    }
+
+    .got-review {
+        margin-top: 35px;
+    }
+
+    .it-works-desc ol li {
+        font-size: 18px;
+    }
+
+    .it-works-desc p {
+        font-size: 18px;
+    }
+
+    .great-newa-area {
+        padding-top: 35px;
+    }
+
+    .main-area-title h3 {
+        margin-bottom: 15px;
+    }
+
+    .main-area-title p {
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+
+}
